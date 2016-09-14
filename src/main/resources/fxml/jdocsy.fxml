@@ -1,0 +1,20 @@
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:controller="me.cronut.jdocsy.controller.JDocsyController"
+            xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <!-- MenuBar -->
+    </top>
+    <left>
+        <fx:include source="projecttree.fxml" />
+    </left>
+    <center>
+        <fx:include source="documentlist.fxml" />
+    </center>
+    <right>
+        <fx:include source="documentdetail.fxml" />
+    </right>
+    <bottom>
+        <fx:include source="informationpanel.fxml" />
+    </bottom>
+</BorderPane>
