@@ -2,8 +2,10 @@ group 'me.cronut'
 version '0.0.1'
 
 apply plugin: 'java'
+apply plugin: 'application'
 
 sourceCompatibility = 1.8
+mainClassName = me.cronut.jdocsy.view.JDocSyView
 
 repositories {
     mavenCentral()
