@@ -1,0 +1,6 @@
+<?import javafx.scene.control.TreeView?>
+<TreeView fx:id="projectTreeView"
+          fx:controller="me.cronut.jdocsy.controller.ProjectTreeController"
+          xmlns:fx="http://javafx.com/fxml"
+          layoutX="0" layoutY="0"
+/>

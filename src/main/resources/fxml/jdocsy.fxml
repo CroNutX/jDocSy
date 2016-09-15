@@ -9,12 +9,12 @@
         <fx:include source="projecttree.fxml" />
     </left>
     <center>
-        <fx:include source="documentlist.fxml" />
+        <!-- <fx:include source="documentlist.fxml" /> -->
     </center>
     <right>
-        <fx:include source="documentdetail.fxml" />
+        <!-- <fx:include source="documentdetail.fxml" /> -->
     </right>
     <bottom>
-        <fx:include source="informationpanel.fxml" />
+        <!-- <fx:include source="informationpanel.fxml" /> -->
     </bottom>
 </BorderPane>

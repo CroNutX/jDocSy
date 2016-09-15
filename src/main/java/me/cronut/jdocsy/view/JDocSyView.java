@@ -15,9 +15,10 @@ public class JDocSyView extends Application {
     public void start(Stage stage) throws Exception {
         Scene scene = new Scene(
                 FXMLLoader.load(getClass().getClassLoader().getResource("fxml/jdocsy.fxml")),
-                1400,
-                900);
+                1024,
+                576);
 
+        stage.setResizable(false);
         stage.setTitle("jDocSy");
         stage.setScene(scene);
         stage.show();
